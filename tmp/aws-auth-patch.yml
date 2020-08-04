@@ -6,7 +6,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::006423017798:role/UdacityFlaskDeployCBKubectlRole
       username: system:node:{{EC2PrivateDNSName}}
-      - groups:
+    - groups:
       - system:masters
       rolearn: arn:aws:iam::006423017798:role/UdacityFlaskDeployCBKubectlRole
       username: build
